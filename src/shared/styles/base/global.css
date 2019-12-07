@@ -1,0 +1,19 @@
+@import-normalize; /* bring in normalize.css styles */
+
+/* Import Bootstrap and its default variables */
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a,
+a:link,
+a:hover,
+a:focus {
+  color: currentColor;
+  text-decoration: none;
+  cursor: pointer;
+}
